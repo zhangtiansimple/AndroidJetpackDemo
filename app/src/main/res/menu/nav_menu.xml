@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/IKunFragment"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="iKun" />
+    <item
+        android:id="@+id/jayFragment2"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        android:title="Jay" />
+</menu>
