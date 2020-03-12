@@ -22,6 +22,7 @@
         <activity android:name=".databinding.DataBindingActivity"/>
         <activity android:name=".navigation.NavigationActivity"/>
         <activity android:name=".room.RoomActivity"/>
+        <activity android:name=".lifecycle.LifeCycleActivity"/>
     </application>
 
 </manifest>
