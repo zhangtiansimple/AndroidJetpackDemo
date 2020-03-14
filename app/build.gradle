@@ -40,6 +40,9 @@ dependencies {
     // Room
     implementation "androidx.room:room-runtime:2.2.4"
     annotationProcessor "androidx.room:room-compiler:2.2.4"
+    // paging
+    def paging_version = "2.1.1"
+    implementation "androidx.paging:paging-runtime:$paging_version"
     // Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'

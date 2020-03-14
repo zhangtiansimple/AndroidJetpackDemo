@@ -1,5 +1,7 @@
 package com.example.jetpackdemo.room;
 
+import androidx.lifecycle.LiveData;
+import androidx.paging.DataSource;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -24,4 +26,7 @@ public interface WorksDao {
 
     @Query("DELETE from works")
     void deleteAll();
+
+    @Query("SELECT * FROM works")
+    DataSource.Factory<Integer, WorksEntity> getWorksForPaging();
 }

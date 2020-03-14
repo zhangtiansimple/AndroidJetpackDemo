@@ -11,6 +11,7 @@ import com.example.jetpackdemo.lifecycle.LifeCycleActivity;
 import com.example.jetpackdemo.livedata.LiveDataActivity;
 import com.example.jetpackdemo.navigation.NavigationActivity;
 import com.example.jetpackdemo.normal.NormalActivity;
+import com.example.jetpackdemo.paging.PagingActivity;
 import com.example.jetpackdemo.room.RoomActivity;
 import com.example.jetpackdemo.viewmodel.CustomViewModelActivity;
 
@@ -67,6 +68,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, LifeCycleActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn_paging).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PagingActivity.class));
             }
         });
     }
